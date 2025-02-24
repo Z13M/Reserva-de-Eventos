@@ -1,19 +1,19 @@
-# 📌 Projeto: Sistema de Gestão de [Nome do Projeto]
+# 📌 Projeto: Sistema de Gestão de Eventos de Carros
 
 ## 📖 Descrição
-Este projeto tem como objetivo desenvolver uma aplicação web para [descrever brevemente o domínio do problema, por exemplo: gerenciamento de estoque, tarefas, reservas de eventos]. O sistema permitirá operações CRUD e uma transação específica para garantir a funcionalidade desejada.
+Este projeto tem como objetivo desenvolver uma aplicação web para gerenciamento de eventos automotivos. O sistema permitirá operações CRUD para eventos, participantes e inscrições, além de uma transação específica para confirmar a participação em eventos.
 
 ## 🚀 Tecnologias Utilizadas
 ### **Front-end:**
-- React.js (Vite ou Create React App)
-- Tailwind CSS ou Material-UI (para estilização)
-- Axios (para consumo da API)
+- React.js 
+- Tailwind CSS ou Material-UI 
+- Axios 
 
 ### **Back-end:**
 - Node.js com Express
-- PostgreSQL (banco de dados relacional)
-- Sequelize ou Knex.js (ORM para interação com o banco)
-- JWT (JSON Web Token) para autenticação e controle de acesso
+- PostgreSQL 
+- Sequelize ou Knex.js 
+- JWT para autenticação e controle de acesso
 
 ### **Arquitetura:**
 - API REST seguindo o padrão MVC
@@ -21,17 +21,19 @@ Este projeto tem como objetivo desenvolver uma aplicação web para [descrever b
 - Padrão de código limpo e organizado
 
 ## 🛠 Funcionalidades
-- 📌 **CRUD** de [entidade principal do projeto, ex: produtos, eventos, tarefas]
-- 🔐 **Autenticação JWT** para login e controle de acesso
-- 🔄 **Transação específica** para [descrever a transação necessária]
-- 📡 **API REST** para comunicação entre front-end e back-end
+-  **CRUD** de eventos automotivos
+-  **CRUD** de participantes
+-  **CRUD** de inscrições
+-  **Autenticação JWT** para login e controle de acesso
+-  **Transação para confirmação de participação** nos eventos
+-  **API REST** para comunicação entre front-end e back-end
 
-## 📌 Organização do Projeto
+##  Organização do Projeto
 - **Repositório:** O código será versionado no GitHub/GitLab
 - **Kanban (Trello/Notion):** Para organização das tarefas
 - **CI/CD:** Planejamento para futuras automações de deploy
 
-## 🚀 Próximos Passos
+##  Próximos Passos
 1. Criar estrutura inicial do projeto
 2. Implementar API REST com autenticação JWT
 3. Criar interface com React.js
@@ -40,4 +42,3 @@ Este projeto tem como objetivo desenvolver uma aplicação web para [descrever b
 6. Deploy da aplicação
 
 ---
-📌 *Este projeto será atualizado conforme o desenvolvimento avança.*

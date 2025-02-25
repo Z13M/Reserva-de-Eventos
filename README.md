@@ -1,5 +1,7 @@
 #  Projeto: Sistema de Eventos de Carros
 
+dupla: João Vitor Ziem, Caue Fernandes
+
 ## Escopo
 Desenvolver uma aplicação web para gerenciamento de eventos automotivos, permitindo:
 - Cadastro, edição e exclusão de eventos
@@ -15,3 +17,5 @@ Desenvolver uma aplicação web para gerenciamento de eventos automotivos, permi
 - **Arquitetura:** API REST
 
 📌 *O projeto será atualizado conforme o desenvolvimento avança.*
+
+

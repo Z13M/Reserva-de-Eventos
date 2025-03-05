@@ -25,10 +25,8 @@ Desenvolver uma aplicação web para gerenciamento de eventos automotivos, permi
 ### Tecnologias
 #### Front-end:
 - Next.js 14 com App Router
-- React Query / SWR para gerenciamento de dados
+- React Hook Form para gerenciamento de dados
 - Tailwind CSS para estilização
-- Axios para chamadas à API
-- NextAuth.js (caso optem por autenticação integrada com Next.js)
 
 #### Back-end:
 - Node.js com Express
@@ -48,7 +46,7 @@ Desenvolver uma aplicação web para gerenciamento de eventos automotivos, permi
 
 ## Módulos/Componentes
 ### Autenticação
-- Registro e login com JWT (ou NextAuth se for mais prático)
+- Registro e login com JWT
 - Middleware de proteção de rotas
 
 ### Gestão de Eventos
@@ -60,7 +58,6 @@ Desenvolver uma aplicação web para gerenciamento de eventos automotivos, permi
 
 ### Inscrição e Confirmação de Presença
 - Inscrição de usuários em eventos
-- Confirmação via e-mail (se necessário)
 
 ### Painel Administrativo
 - Gestão de eventos e participantes

@@ -27,12 +27,19 @@ export default function UserForm() {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm<FormData>({
     resolver: zodResolver(schema),
   });
 
   const onSubmit = (data: FormData) => {
     console.log("Dados do formulário:", data);
+  };
+
+  const cancel = () => {
+    setIsEditing(false);
+
+    reset();
   };
 
   return (
@@ -108,8 +115,7 @@ export default function UserForm() {
           <>
             <button
               className="flex justify-center rounded border border-stroke px-6 py-2 font-medium text-black hover:shadow-1 dark:border-strokedark dark:text-white"
-              type="button"
-              onClick={() => setIsEditing(false)}
+              onClick={() => cancel()}
             >
               Cancelar
             </button>
@@ -123,6 +129,7 @@ export default function UserForm() {
         ) : (
           <button
             className="flex justify-center rounded bg-primary px-6 py-2 font-medium text-gray hover:bg-opacity-90"
+            type="button"
             onClick={() => {
               setIsEditing(true);
             }}

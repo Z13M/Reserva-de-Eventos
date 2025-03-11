@@ -5,7 +5,7 @@
 - **Caue Fernandes**
 
 ## Ajustes da Primeira Interação
-Foram realizados ajustes na definição dos requisitos funcionais e não funcionais, melhorando a clareza sobre as funcionalidades esperadas. Além disso, refinamos a seleção das tecnologias para garantir maior escalabilidade e segurança.
+Foram realizados ajustes na definição dos requisitos funcionais e não funcionais. Refinamos a seleção das tecnologias para garantir maior escalabilidade e segurança.
 
 ## Requisitos
 ### Funcionais
@@ -37,10 +37,8 @@ O sistema será desenvolvido com uma arquitetura **Cliente-Servidor**, utilizand
 
 #### Back-end
 - Node.js com Express
-- TypeScript para tipagem
-- Prisma ORM
+- Javascript para tipagem
 - JWT para autenticação
-- Zod para validação de dados
 
 #### Banco de Dados
 - PostgreSQL 
@@ -50,7 +48,7 @@ O sistema será desenvolvido com uma arquitetura **Cliente-Servidor**, utilizand
 |-----------|------------|
 | Configurar repositório e estrutura do projeto | João e Caue |
 | Desenvolver autenticação e proteção de rotas | João |
-| Criar CRUD de eventos | Caue |
+| Criar CRUD de eventos | João |
 | Implementar sistema de inscrições | João |
 | Desenvolver painel administrativo | Caue |
 | Revisão e testes finais | João e Caue |

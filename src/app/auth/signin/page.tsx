@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 import { Metadata } from "next";
 import SignInForm from "./signinForm";
 
@@ -15,7 +14,7 @@ const SignIn: React.FC = () => {
   return (
     <>
       <div className="bg-[rgb(241 245 249) ] flex h-screen w-screen items-center justify-center ">
-        <div className="relative mx-auto  max-w-5xl rounded border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+        <div className="relative mx-auto  max-w-5xl rounded border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark min-w-[500px]">
           <div className="flex flex-wrap items-center">
             <div className="hidden w-full xl:block xl:w-1/2">
               <div className="px-26 py-17.5 text-center">
@@ -29,7 +28,7 @@ const SignIn: React.FC = () => {
                   />
                 </Link>
 
-                <p className="2xl:px-20">
+                <p className="">
                   O <strong>Gear Up</strong> é a plataforma definitiva para
                   entusiastas e organizadores de eventos automotivos.
                 </p>
